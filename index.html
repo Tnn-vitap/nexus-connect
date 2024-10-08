@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nexus Connect: Freshers Unite | Team Next Nexus</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f9fc;
+        }
+
+        /* Header */
+        header {
+            background-color: #162447;
+            color: white;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+        }
+
+        .logo-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        .event-header-title {
+            text-align: center;
+            width: 100%;
+        }
+
+        .event-header-title h1 {
+            font-size: 2.5rem;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1s forwards;
+        }
+
+        .event-details,
+        .card {
+            animation: fadeInUp 1.2s ease-in-out forwards;
+        }
+
+        /* Button */
+        .btn-custom {
+            background-color: #1f4068;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-custom:hover {
+            background-color: #e43f5a;
+        }
+
+        footer {
+            background-color: #162447;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            animation: fadeInUp 1.2s ease-in-out forwards;
+        }
+
+        @media (max-width: 768px) {
+            .event-header-title h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="./1-removebg-preview.png" alt="TNN Logo">
+                </div>
+                <div class="logo-name">Team Next Nexus</div>
+            </div>
+            <div class="event-header-title">
+                <h1>Nexus Connect: Freshers Unite</h1>
+                <p>An Interactive Event for Freshers</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Event Section -->
+    <section class="container mt-5 fade-in">
+        <div class="row">
+            <div class="col-lg-6 mb-4 event-image">
+                <img src="./6101668.jpg" alt="Event Image" width="100%" height="auto">
+            </div>
+
+            <div class="col-lg-6">
+                <div class="event-details">
+                    <h2>Event Overview</h2>
+                    <p>"Nexus Connect: Freshers Unite" is a 2.5 to 3-hour interactive event designed to bring freshers together through engaging and tech-themed activities. The event includes games, quizzes, and creative challenges with a strong emphasis on fun and interaction.</p>
+
+                    <p><strong>Date:</strong> 11 October 2024</p>
+                    <p><strong>Time:</strong> 3:00 PM - 6:00 PM (IST)</p>
+                    <p><strong>Venue:</strong> Newton Hall</p>
+
+                    <p>Join us for a fun-filled day where freshers can bond, collaborate, and showcase their creativity in a welcoming and inclusive environment.</p>
+                    
+                    <!-- Register Now Button -->
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDUZ2oFRZQxcMYexDYhSecnbCMI5Ejl4_5fCA8ynVnOwOBlg/viewform?usp=sf_link" class="btn btn-custom mt-3">Register Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Objectives Section -->
+    <section class="container my-5 fade-in">
+        <h2>Event Objectives</h2>
+        <ul>
+            <li>To create an interactive space for freshers to connect with each other and the organizing team.</li>
+            <li>To promote team-building, collaboration, and creativity through tech-themed activities.</li>
+            <li>To break the ice and foster lasting connections among new students.</li>
+            <li>To promote club ideals and teamwork through the event.</li>
+        </ul>
+    </section>
+
+    <!-- Event Flow Section -->
+    <section class="container my-5 fade-in">
+        <h2>Event Flow</h2>
+        <ol>
+            <li><strong>Byte-Sized Stories:</strong> A short video highlighting the goals and activities of Team Next Nexus, followed by a playful introduction of team members to welcome freshers.</li>
+            <li><strong>Speed Networking:</strong> Freshers interact with each other in 10-minute sessions, sharing their names, departments, and interests to help form teams for the upcoming games.</li>
+            <li><strong>Truths and a Tech Lie – The Myth Busting Quiz:</strong> Teams are given two true tech statements and one false one. The goal is to identify the tech lie, challenging common myths in the tech world.</li>
+            <li><strong>Build A Mascot:</strong> Teams use an AI image generator (like DALL·E) to create a mascot representing their group, encouraging creativity and introducing AI design potential.</li>
+            <li><strong>Tech Trivia Showdown:</strong> An interactive trivia quiz featuring questions about AI applications, tech trends, and historical milestones.</li>
+            <li><strong>Echo Loop:</strong> A fun game where participants build and memorize a sequence of words and try to repeat them in the correct order after a certain period.</li>
+        </ol>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Team Next Nexus | All Rights Reserved</p>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
